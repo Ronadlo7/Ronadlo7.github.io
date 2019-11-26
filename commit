@@ -1,0 +1,16 @@
+提交项目到方式有三种：
+
+方式1.直接通过share （简单方便，推荐使用）
+
+方式2.
+  （1）先要在github上新建仓库Repository，
+  （2）在Android studio中在项目根目录上右键Git-->Add将代码添加到索引库
+  （3）Git-->Commit Directory提交到本地仓库（依然没有和github联系上）
+  （4）将代码push到远程仓库Git-->Repository-->push到远程仓库
+      如果提示Push to origin/master was rejected 表示提交被拒绝
+      git切换到项目目录下，可以通过
+      git pull origin master –allow-unrelated-histories 
+      git push -u origin master -f
+  （5）再重复第四步
+  
+  方式3：先把github上面创建的仓库克隆下来，再去添加提交
