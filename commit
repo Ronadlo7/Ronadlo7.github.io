@@ -1,6 +1,11 @@
 提交项目到方式有三种：
 
 方式1.直接通过share project on github（简单方便，推荐使用）
+  遇到的问题：Successfully created project 'CustomDemo' on GitHub, 
+            but initial push failed: git@github.com: Permission denied (publickey). 
+            Could not read from remote repository.  
+            Please make sure you have the correct access rights and the repository exists.
+  解决方法：
 
 方式2.
   （1）先要在github上新建仓库Repository，
